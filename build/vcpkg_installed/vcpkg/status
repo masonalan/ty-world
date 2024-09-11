@@ -1,0 +1,161 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-osx
+Multi-Arch: same
+Abi: 0fab6b20fe1073ff1a6655fb77fe073ddad0ab5314d6be6ff7249658d6adf42b
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-osx
+Multi-Arch: same
+Abi: 744438bb00e027e0f91c1d312a2d879c76bade3f66aed0e7066ca672dd35d96c
+Status: install ok installed
+
+Package: egl-registry
+Version: 2024-01-25
+Architecture: x64-osx
+Multi-Arch: same
+Abi: cb3f1f143385c0226a58016ad42821295c45c181486efb8fe81a0eef5ece0201
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2024-02-10
+Port-Version: 1
+Depends: egl-registry
+Architecture: x64-osx
+Multi-Arch: same
+Abi: 6d8359c583af253610b6c00d25d3b9b8693b5a7559319d921c2ad2fa7bbba27a
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: glad
+Version: 0.1.36
+Depends: egl-registry, opengl-registry, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-osx
+Multi-Arch: same
+Abi: 229c753e994dedf0330730491b5ca0791a8cad45dba312e3235d921d01f466ac
+Description: Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+Default-Features: loader
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-10
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 1.0.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-11
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 1.1.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-12
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 1.2.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-13
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 1.3.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-14
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 1.4.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-15
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 1.5.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-20
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 2.0.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-21
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 2.1.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-30
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 3.0.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-31
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 3.1.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-32
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 3.2.
+Status: install ok installed
+
+Package: glad
+Feature: gl-api-33
+Architecture: x64-osx
+Multi-Arch: same
+Description: Imports extensions from OpenGL API specification version 3.3.
+Status: install ok installed
+
+Package: glad
+Feature: loader
+Architecture: x64-osx
+Multi-Arch: same
+Description: Generate loader logic.
+Status: install ok installed
+
+Package: glfw3
+Version: 3.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-osx
+Multi-Arch: same
+Abi: 4de2d0ed30eb54719ab88da72e0749fd286c77477cac2f4a97ef79fb39894e48
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: glm
+Version: 1.0.1
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-osx
+Multi-Arch: same
+Abi: 54921f3fb24b5e8a8a296d581de174afd146084af4981ea2788414ab7e38db5e
+Description: OpenGL Mathematics (GLM)
+Status: install ok installed
+
+Package: stb
+Version: 2023-04-11
+Port-Version: 1
+Architecture: x64-osx
+Multi-Arch: same
+Abi: 01bf428213769a73ebff76a062a8fc3e4ea8050e7b19388de71caf5f921d3e05
+Description: public domain header-only libraries
+Status: install ok installed
+
