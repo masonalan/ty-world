@@ -1,2 +1,0 @@
-add_subdirectory(fractal)
-add_subdirectory(hotplate)
