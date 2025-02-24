@@ -1,3 +1,0 @@
-/Users/jamespickering/dev/lighting/build/CMakeFiles/lighting.dir
-/Users/jamespickering/dev/lighting/build/CMakeFiles/edit_cache.dir
-/Users/jamespickering/dev/lighting/build/CMakeFiles/rebuild_cache.dir
